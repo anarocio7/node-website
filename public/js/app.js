@@ -35,7 +35,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
       } else {
         messageOne.textContent = data.location;
         messageTwo.textContent = data.forecast.weather_descriptions[0] + '. It is currently ' + data.forecast.temperature + ' degrees out. It feels like ' + data.forecast.feelslike + ' degrees.';
-        console.log(data.forecast)
+        //console.log(data.forecast)
       }
     });
   });
